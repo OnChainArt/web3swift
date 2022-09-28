@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
 
     spec.dependency 'secp256k1.c', '~> 0.1'
     spec.dependency 'BigInt', '~> 5.3.0'
-    spec.dependency 'CryptoSwift', '~> 1.5.1'
+    spec.dependency 'CryptoSwift', '~> 1.6.0'
     spec.source_files = "Sources/Core/**/*.swift"
 end
